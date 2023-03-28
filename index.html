@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="redireccion.html" method="post">
+        <label for="nombre">NOMBRE</label><br>
+        <input type="text" name="nombre" id="nombre">
+        
+        <br><br>
+        <label for="direccion">DIRECCION</label><br>
+        <input type="text" name="direccion" id="direccion">
+        
+        <br><br>
+        <label for="especialidad">ESPECIALIDAD MEDICA</label><br>
+        <select name="especialidad" id="especialidad">
+            <option value=""></option>
+            <option value="MEDICINA INTERNA">MEDICINA INTERNA</option>
+            <option value="MEDICINA GENERAL">MEDICINA GENERAL</option>
+            <option value="TRAUMATOLOGIA">TRAUMATOLOGIA</option>
+            <option value="NUTRICIONISTA">NUTRICIONISTA</option>
+        </select>      
+        
+        <br><br>
+        <label for="fecha">FECHA</label><br>
+        <input type="date" name="fecha" id="fecha">
+        
+        <br><br>
+        <label for="hora">HORA</label><br>
+        <input type="time" name="hora" id="hora">
+        
+        <br><br>
+        <label for="email">CORREO</label><br>
+        <input type="email" name="correo" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required><br><br>
+        <input type="submit" value="CONFIRMAR">
+
+
+    </form>
+
+</body>
+</html>
